@@ -41,7 +41,7 @@ Words are sorted by
 ## Performance
 The program demonstrates a 3x speedup on an 8-thread system when compared to a single-threaded run
 
-## Scalability
+### Scalability
 The scalability of the program is limited by:
 - number of mappers: capped at the number of files to be processed
 - number of reducers: capped at 26 (the number of letters in the alphabet)
